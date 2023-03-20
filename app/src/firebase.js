@@ -28,3 +28,5 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+export default app; //강좌에는 firebase를 export하라고 하지만 코드보면 app을 export 해야 한다.
