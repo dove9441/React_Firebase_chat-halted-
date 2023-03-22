@@ -1,5 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -7,13 +8,12 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-
 // 인증을 위한 import
-import "firebase/auth";
+import "firebase/compat/auth";
 // 데이터베이스 import 
-import "firebase/database";
+import "firebase/compat/database";
 // 스토리지 이용을 위한 import
-import "firebase/storage";
+import "firebase/compat/storage";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAmKtC3AJG5sY7EzrxOWQzO02X5ONspirc",

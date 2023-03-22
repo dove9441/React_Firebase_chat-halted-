@@ -11,7 +11,7 @@ import {useRef} from "react";
 import {useState} from "react";
 
 // firebase import
-import firebase from "../../firebase";
+import * as firebase from "../../firebase";
 
 
 function RegisterPage(){
